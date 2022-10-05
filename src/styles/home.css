@@ -1,0 +1,46 @@
+.conteudo{
+  margin-top: 50px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+.banner{
+  margin-left: -95px;
+}
+h3{
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+p{
+  font-size: 20px;
+}
+.ajuste{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title{
+  margin-top: 20px;
+  font-size: 28px;
+  font-style: oblique;
+  text-decoration: underline;
+}
+table {
+  margin-top: 5px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th{
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

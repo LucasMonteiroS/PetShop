@@ -1,0 +1,60 @@
+.ajuste{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.title{
+  font-size: 24px;
+  font-weight: bold;
+}
+.ajuste-form{
+  margin-left: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ajuste-btn{
+  margin-left: 480px;
+}
+form{
+  margin: 40px 0;
+}
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+.input-padrao{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+.enviar{
+  width: 20%;
+  padding: 15px 0;
+  background: rgb(42, 112, 24);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  transition: 1s all;
+  cursor: pointer;
+}
+.reset{
+  width: 20%;
+  padding: 15px 0;
+  background: rgb(42, 112, 24);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+  transition: 1s all;
+  cursor: pointer;
+  margin-bottom: 30px;
+  margin-left: 60px;
+}

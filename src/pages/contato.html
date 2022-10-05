@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PetShop - Lucas&Monteiro</title>
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/layoult.css" />
+    <link rel="stylesheet" href="../styles/contato.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav id="navigation">
+        <img
+          class="logo"
+          src="../img/logo-icon.png"
+          alt="Logo principal do site"
+        />
+        <div class="caixa">
+          <div class="menu">
+            <ul>
+              <li><a href="../../index.html">Início</a></li>
+              <li><a href="./cachorro.html">Cachorro</a></li>
+              <li><a href="./produtos.html">Produtos</a></li>
+              <li><a href="./gato.html">Gato</a></li>
+              <li><a href="./contato.html">Contato</a></li>
+              <li><a href="./sobre.html">Sobre</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="conteudo">
+        <div class="ajuste">
+          <h1 class="title">
+            Entre em contato agora mesmo e tire suas dúvidas!
+          </h1>
+        </div>
+
+        <div class="ajuste-form">
+          <form>
+            <label for="nomesobrenome">Nome e Sobrenome</label>
+            <input
+              type="text"
+              id="nomesobrenome"
+              class="input-padrao"
+              required
+              placeholder="João da Silva"
+            />
+
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              class="input-padrao"
+              required
+              placeholder="joao@gmail.com"
+            />
+
+            <label for="telefone">Telefone</label>
+            <input
+              type="tel"
+              id="telefone"
+              class="input-padrao"
+              required
+              placeholder="(XX) XXXXX-XXXX"
+            />
+
+            <label for="mensagem">Descreva sua dúvida</label>
+            <textarea
+              id="mensagem"
+              cols="70"
+              rows="10"
+              class="input-padrao"
+              required
+            ></textarea>
+          </form>
+        </div>
+        <div class="ajuste-btn">
+          <input type="submit" value="Enviar formulário" class="enviar" />
+          <input type="reset" value="Limpar formulário" class="reset" />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+header{
+  background: rgb(94, 145, 114);
+  padding: 20px 0;
+  height: 120px;
+}
+.caixa{
+  position: relative;
+  width: 1020px;
+  margin: 0 auto;
+}
+nav{
+  position: absolute;
+  top: 80px;
+  right: 0px;
+}
+nav li{
+  display: inline;
+  margin: 0 0 0 15px;
+}
+nav a{
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+  margin-left: 15px;
+}
+nav a:hover{
+  color: rgb(42, 112, 24);
+  text-decoration: underline;
+  text-shadow: 10px;
+}
+
+nav .logo{
+  height: 120px;
+  width: 120px;
+  float: left;
+  margin-top: -60px;
+  margin-left: -150px;
+}

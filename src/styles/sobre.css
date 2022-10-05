@@ -1,0 +1,58 @@
+.ajuste{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.title{
+  font-size: 24px;
+  font-weight: bold;
+}
+.subtitle{
+  padding-top: 70px;
+  position: absolute;
+  font-size: 20px;
+}
+.conteudo{
+  margin-top: 50px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+h3{
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+p{
+  font-size: 18px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th{
+  font-weight: bold;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.itens{
+  margin-left: 45px;
+  list-style-type: disc;
+}
+.itens-list{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+}
+a{
+  color: black;
+  font-weight: bold;
+}
