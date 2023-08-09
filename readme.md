@@ -1,0 +1,1 @@
+O projeto do PetShop foi desenvolvido para realização de uma atividade de Desenvolvimento Web 1.
